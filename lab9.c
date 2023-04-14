@@ -155,6 +155,8 @@ int main(void)
             record = next;
         }
     }
+
+// Free the memory set for the hash table and the records
     free(hashTable);
     free(pRecords);
     return 0;
